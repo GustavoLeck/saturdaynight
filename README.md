@@ -12,7 +12,7 @@ Deve ter instaladado em sua maquina NodeJS, ter acesso ao banco de dados MySQL;<
 
 Para iniciar a aplicação deve-se: <br>
 -Criar um arquivo .env na pasta raiz do server, seguindo o arquivo .env.example;<br>
--Executar o comando <node .> para instalar as dependencias;<br>
+-Executar o comando "node ." para instalar as dependencias;<br>
 -Executar o conteudo do arquivo "Script_BD", primeiro utilizando o comando para criar o banco, depois executantdo o restante.<br>
 
 
