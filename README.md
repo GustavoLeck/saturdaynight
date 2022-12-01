@@ -6,7 +6,7 @@ SaturdayNight lhe indica um filme aleatório dentro das sua preferencias que lhe
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Para roda em modo de desenvolvimento:
+Para rodar em modo de desenvolvimento:
 
 Deve ter instaladado em sua maquina NodeJS, ter acesso ao banco de dados MySQL;
 
