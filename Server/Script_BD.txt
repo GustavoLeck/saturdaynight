@@ -1,0 +1,12 @@
+CREATE DATABASE SaturdayNight;
+
+USE SaturdayNight;
+
+CREATE TABLE PESQUISA(
+Id int auto_increment,
+Usuario varchar(64),
+Titulo varchar(64),
+Genero varchar(64),
+datalanc date,
+imdb varchar(255)
+)
