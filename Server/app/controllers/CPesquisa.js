@@ -16,18 +16,11 @@ module.exports.postPesquisa = function(application, req, res){
    const pesquisaModel = new application.app.models.MPesquisa(mysqlConnection);
    
 
-   pesquisaModel.postPesquisa(req, function(error, result) {
-
-      if(error === null){
-         res.json({"status": 200})
-      }else{
-         const map = new Map();
-         map.set('errno', error.errno);
-         map.set('code', error.code);
-         console.log(typeof map)
-         res.json()
-         
-      }
-
-   })
+   pesquisaModel.postPesquisa(req, function(error, result){
+     if(error === null){
+      res.json({"status":200})
+     }else{
+      res.json(error)
+     }
+  })
 }
